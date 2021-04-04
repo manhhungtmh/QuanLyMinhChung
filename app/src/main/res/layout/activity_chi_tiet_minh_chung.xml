@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietMinhChung"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/ivChiTietAnhMinhChung"
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/fithoulogo" />
+
+    <TextView
+        android:id="@+id/tvTenMinhChung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Tên Minh Chứng"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvThoiGianDang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Thời gian đăng"
+        android:textSize="20sp" />
+</LinearLayout>

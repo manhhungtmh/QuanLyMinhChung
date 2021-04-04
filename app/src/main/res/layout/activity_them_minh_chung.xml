@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemMinhChung"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Thông tin minh chứng"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtTenMinhChung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tên Minh Chứng"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtThoiGianThamGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Thời gian tham gia"
+        android:inputType="date" />
+
+    <ImageView
+        android:id="@+id/imgAnhMinhChung"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        app:srcCompat="@drawable/fithoulogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnQuayLai"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Chọn ảnh"
+            app:backgroundTint="#AFB2B3" />
+
+        <Button
+            android:id="@+id/btnTimKiem"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="Lưu"
+            app:backgroundTint="#03A9F4" />
+    </LinearLayout>
+
+</LinearLayout>
